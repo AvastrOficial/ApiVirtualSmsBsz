@@ -1,0 +1,174 @@
+  :root {
+      --verde: #28a745;
+      --azul: #007bff;
+      --gris: #f0f0f0;
+      --fondo: #e8f5e9;
+      --texto: #1b1b1b;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--fondo);
+      color: var(--texto);
+      display: flex;
+      flex-direction: row;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: linear-gradient(90deg, var(--verde), var(--azul));
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+      z-index: 10;
+    }
+
+    main {
+      padding: 6rem 2rem 2rem 2rem;
+      width: 60%;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    #listaNumeros {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .number-card {
+      background-color: white;
+      border-radius: 12px;
+      border: 2px solid var(--azul);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .number-card:hover {
+      transform: scale(1.05);
+      background-color: var(--gris);
+    }
+
+    .number-card img {
+      width: 25px;
+      margin-bottom: 8px;
+    }
+
+    .number-card strong {
+      display: block;
+      font-size: 1.1rem;
+      margin-top: 5px;
+    }
+
+    .number-card small {
+      color: gray;
+      font-size: 0.8rem;
+    }
+
+    aside {
+      width: 30%;
+      min-width: 280px;
+      background: #fff;
+      border-left: 2px solid var(--verde);
+      padding: 2rem 1rem;
+      box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+      overflow-y: auto;
+      transition: transform 0.3s ease;
+      transform: translateX(100%);
+      position: fixed;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 5;
+    }
+
+    aside.active {
+      transform: translateX(0);
+    }
+
+    #smsContent {
+      margin-top: 1rem;
+    }
+
+    .sms {
+      border-bottom: 1px solid #ccc;
+      padding: 0.5rem 0;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: var(--gris);
+      text-align: center;
+
+      font-size: 0.9rem;
+    }
+    
+    main {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #333;
+}
+
+
+.lista-uso {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 2rem;
+  max-width: 600px;
+  text-align: left;
+  color: #444;
+}
+
+.lista-uso li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.boton {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.boton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Estilos pastel */
+.pastel-verde {
+  background-color: #9be7a7;
+  color: #1f4b2e;
+}
+
+.pastel-verde:hover {
+  background-color: #84d994;
+}
+
+.pastel-azul {
+  background-color: #a5d8ff;
+  color: #1e3a5f;
+}
+
+.pastel-azul:hover {
+  background-color: #8fcbf3;
+}
