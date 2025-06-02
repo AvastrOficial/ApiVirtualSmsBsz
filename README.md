@@ -5,6 +5,7 @@ Una interfaz visual simple y responsiva para visualizar números telefónicos p�
 <br>
 Web : https://appbsz.crearforo.net/h152-bsznumervirtualfree	
 ---
+
 ![image](https://github.com/user-attachments/assets/e8724c80-a578-4658-b7de-93c5bbbfb6a3)
 
 ## 🧩 ¿Qué hace este script?
@@ -24,7 +25,9 @@ Agrega el siguiente `<script>` a tu archivo HTML:
 <script src="https://cdn.jsdelivr.net/gh/AvastrOficial/ApiVirtualSmsBsz/ApiBszv0.js"></script>
 ```
 No necesitas agregar ningún <div> adicional, el script se encargará de insertar toda la interfaz.
+
 <br>
+
 ![image](https://github.com/user-attachments/assets/cb85a120-7612-4b12-9ab8-1947d9f7a2bb)
 
 ---
