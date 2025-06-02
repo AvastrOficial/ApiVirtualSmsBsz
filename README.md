@@ -2,6 +2,13 @@
 
 Una interfaz visual simple y responsiva para visualizar números telefónicos públicos y sus mensajes SMS en tiempo real. Esta herramienta fue creada por **AvaStrOficial** y es ideal para pruebas, verificación temporal o desarrollo de integraciones.
 
+---
+
+## 🧩 uso de OTP lIstado De Numeros :
+```html
+https://gvg3y3xp63.execute-api.eu-west-1.amazonaws.com/dev/getsms/528184713166?x=14710.78&ios=5337-apple-icon-434845&android=gradle.build.83794.android.v34845&delay=15048
+```
+
 <br>
 
 Web : https://appbsz.crearforo.net/h152-bsznumervirtualfree	
