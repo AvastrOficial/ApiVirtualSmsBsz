@@ -1,6 +1,7 @@
 # ApiVirtualSmsBsz - BSZ Numer List Free 
 
 Una interfaz visual simple y responsiva para visualizar números telefónicos públicos y sus mensajes SMS en tiempo real. Esta herramienta fue creada por **AvaStrOficial** y es ideal para pruebas, verificación temporal o desarrollo de integraciones.
+
 <br>
 Web : https://appbsz.crearforo.net/h152-bsznumervirtualfree	
 ---
@@ -23,6 +24,7 @@ Agrega el siguiente `<script>` a tu archivo HTML:
 <script src="https://cdn.jsdelivr.net/gh/AvastrOficial/ApiVirtualSmsBsz/ApiBszv0.js"></script>
 ```
 No necesitas agregar ningún <div> adicional, el script se encargará de insertar toda la interfaz.
+<br>
 ![image](https://github.com/user-attachments/assets/cb85a120-7612-4b12-9ab8-1947d9f7a2bb)
 
 ---
